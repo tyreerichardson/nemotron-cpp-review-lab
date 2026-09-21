@@ -1,0 +1,1 @@
+{"case_id":"eval2-007","expected_findings":[{"category":"bug","line":3}],"notes":"position is unchecked; classify unchecked external index as bug in v2 taxonomy."}

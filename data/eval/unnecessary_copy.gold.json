@@ -1,0 +1,5 @@
+{
+  "case_id": "eval-003",
+  "expected_findings": [{"category": "performance", "line": 5}],
+  "notes": "Each loop iteration copies a string; const auto& avoids the copy."
+}

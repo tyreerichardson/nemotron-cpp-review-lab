@@ -1,0 +1,1 @@
+{"case_id":"eval3-012","expected_findings":[],"notes":"Clean control: unary transform permits input and output ranges to be the same."}

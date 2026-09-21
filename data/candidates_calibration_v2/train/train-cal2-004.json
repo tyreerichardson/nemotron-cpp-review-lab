@@ -1,0 +1,1 @@
+{"id":"train-cal2-004","status":"draft","split_candidate":"train","source":"#include <numeric>\n#include <vector>\nint total(const std::vector<int>& values) {\n    return std::accumulate(values.begin(), values.end(), 0);\n}\n","review":{"schema_version":"0.1","file":"train-cal2-004.cpp","summary":"No supported issues identified.","assumptions":[],"findings":[]}}

@@ -1,0 +1,1 @@
+{"case_id":"eval2-002","expected_findings":[{"category":"memory_safety","line":5}],"notes":"saved aliases freed storage."}

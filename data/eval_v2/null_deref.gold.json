@@ -1,0 +1,1 @@
+{"case_id":"eval2-001","expected_findings":[{"category":"memory_safety","line":3}],"notes":"node may be null before dereference."}

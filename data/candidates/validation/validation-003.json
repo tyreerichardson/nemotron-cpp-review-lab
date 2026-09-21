@@ -1,0 +1,1 @@
+{"id":"validation-003","split_candidate":"validation","status":"draft","provenance":"human-authored","source":"#include <string>\nstd::string bracketed(const std::string& value) {\n    return \"[\" + value + \"]\";\n}\n","review":{"schema_version":"0.1","file":"validation-003.cpp","summary":"No supported issues identified.","assumptions":[],"findings":[]}}

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nemotron-cpp-review:0.1",
+  "title": "C++ Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "file",
+    "summary",
+    "assumptions",
+    "findings"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "file": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "assumptions": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "string",
+        "maxLength": 120
+      }
+    },
+    "findings": {
+      "type": "array",
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "category",
+          "severity",
+          "location",
+          "title",
+          "explanation",
+          "suggested_fix"
+        ],
+        "properties": {
+          "category": {
+            "enum": [
+              "bug",
+              "memory_safety",
+              "performance"
+            ]
+          },
+          "severity": {
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "location": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start_line",
+              "end_line"
+            ],
+            "properties": {
+              "start_line": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "end_line": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 280
+          },
+          "suggested_fix": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 280
+          }
+        }
+      }
+    }
+  },
+  "$comment": "Application validation must also ensure end_line >= start_line, lines are within source, and file matches input."
+}

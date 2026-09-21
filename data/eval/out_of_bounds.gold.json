@@ -1,0 +1,5 @@
+{
+  "case_id": "eval-001",
+  "expected_findings": [{"category": "memory_safety", "line": 4}],
+  "notes": "Inclusive bound permits values[values.size()]."
+}

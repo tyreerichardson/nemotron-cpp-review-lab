@@ -1,0 +1,1 @@
+{"case_id":"eval2-004","expected_findings":[{"category":"memory_safety","line":2}],"notes":"valid array indices are 0 through 2."}

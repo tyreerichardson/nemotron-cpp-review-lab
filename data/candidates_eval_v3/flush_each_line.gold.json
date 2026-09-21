@@ -1,0 +1,1 @@
+{"case_id":"eval3-009","expected_findings":[{"category":"performance","line":6}],"notes":"Flushing after every value creates avoidable output synchronization; this assumes buffered output is acceptable."}

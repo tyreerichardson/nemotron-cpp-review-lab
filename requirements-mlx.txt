@@ -1,0 +1,5 @@
+# Mac adaptation environment used for the measured V4+V7+V8 experiments.
+# Install in a clean Python 3.12 virtual environment on Apple Silicon.
+mlx==0.32.2
+mlx-lm==0.31.3
+mlx-optiq==0.5.11

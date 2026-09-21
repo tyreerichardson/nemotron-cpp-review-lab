@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1",
+  "split": "validation",
+  "review_policy": "single_owner_review",
+  "limitation": "All records were approved by the sole project owner. No independent second review was available.",
+  "records": [
+    {"id":"validation-001","candidate":"data/candidates/validation/validation-001.json","candidate_sha256":"b6ced3241439737210e5df7218cd162fd89210f8f9b86e76f14da3b5b9a9b95e"},
+    {"id":"validation-002","candidate":"data/candidates/validation/validation-002.json","candidate_sha256":"2d45fc0be2dacdc202c2f8f1b507707fd99c4bbb3a0b95ac9d1c83ce0aa28d5e"},
+    {"id":"validation-003","candidate":"data/candidates/validation/validation-003.json","candidate_sha256":"1bb3e0db13ca280b5a1c09487ea5e8b7074856c2103ca8b72118f0a9315976dc"},
+    {"id":"validation-cal-001","candidate":"data/candidates_calibration/validation/validation-cal-001.json","candidate_sha256":"d9dff4d0f9b270b1d1f389c63702b4b55fac4def59abd972ce58e8c50df74f2f"},
+    {"id":"validation-cal-002","candidate":"data/candidates_calibration/validation/validation-cal-002.json","candidate_sha256":"34e84f386ca09496ca907a2ff11f2821a850dd51a74b8e6597dfd658b25fdf6c"},
+    {"id":"validation-cal-003","candidate":"data/candidates_calibration/validation/validation-cal-003.json","candidate_sha256":"8f0c714cf354adf3bace34bc31d9d9c1aa5749c4d11c334251e5c10dcfcf528d"}
+  ]
+}

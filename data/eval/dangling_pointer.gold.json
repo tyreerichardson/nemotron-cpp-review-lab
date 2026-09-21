@@ -1,0 +1,5 @@
+{
+  "case_id": "eval-002",
+  "expected_findings": [{"category": "memory_safety", "line": 4}],
+  "notes": "Returned pointer refers to storage released when text is destroyed."
+}

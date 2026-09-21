@@ -1,0 +1,1 @@
+{"id":"train-cal2-005","status":"draft","split_candidate":"train","source":"#include <algorithm>\nint cap_score(int value) {\n    return std::clamp(value, 0, 100);\n}\n","review":{"schema_version":"0.1","file":"train-cal2-005.cpp","summary":"No supported issues identified.","assumptions":[],"findings":[]}}

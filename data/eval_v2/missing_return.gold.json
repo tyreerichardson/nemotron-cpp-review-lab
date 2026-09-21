@@ -1,0 +1,1 @@
+{"case_id":"eval2-006","expected_findings":[{"category":"bug","line":4}],"notes":"value equal to zero reaches the end of a non-void function."}

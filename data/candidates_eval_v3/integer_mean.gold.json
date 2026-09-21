@@ -1,0 +1,1 @@
+{"case_id":"eval3-005","expected_findings":[{"category":"bug","line":2}],"notes":"Assumes count is positive; integer division discards the fractional result before conversion to double."}

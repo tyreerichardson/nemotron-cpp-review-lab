@@ -1,0 +1,1 @@
+{"case_id":"eval3-006","expected_findings":[{"category":"bug","line":4}],"notes":"Assumes month is supplied as 1 through 12; the array is indexed 0 through 11."}

@@ -1,0 +1,1 @@
+{"case_id":"eval2-010","expected_findings":[{"category":"performance","line":5}],"notes":"Nested search is quadratic; this label assumes large inputs merit a set-based alternative."}

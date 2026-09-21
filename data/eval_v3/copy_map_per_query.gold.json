@@ -1,0 +1,1 @@
+{"case_id":"eval3-010","expected_findings":[{"category":"performance","line":7}],"notes":"The unchanged map is copied once per name; query scores directly instead."}

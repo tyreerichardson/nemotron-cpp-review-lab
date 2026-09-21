@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1",
+  "split": "train",
+  "review_policy": "single_owner_review",
+  "limitation": "All records were approved by the sole project owner. No independent second review was available.",
+  "records": [
+    {"id":"train-001","candidate":"data/candidates/train/train-001.json","candidate_sha256":"6ae9604f77781cda179e9de8cef591861fcf22ae579acbedc1c4925493eba0e3"},
+    {"id":"train-002","candidate":"data/candidates/train/train-002.json","candidate_sha256":"8ee16284cf593e5e8f20316e7ee5e778f4718870986e7972e1af363e661be86a"},
+    {"id":"train-003","candidate":"data/candidates/train/train-003.json","candidate_sha256":"6d3bb2a13cc349f269733dc76bf768cbb3e8369a16be80eca741709b2dd1c046"},
+    {"id":"train-004","candidate":"data/candidates/train/train-004.json","candidate_sha256":"eb721ee0e60e6ac20e1e4f09e20a263014c298e5d7cf20cc774516364a6134a6"},
+    {"id":"train-005","candidate":"data/candidates/train/train-005.json","candidate_sha256":"4836e88bd2f8158aba38465181904ac033be87278bd68071a7c85339df516ecd"},
+    {"id":"train-006","candidate":"data/candidates/train/train-006.json","candidate_sha256":"d57468afac3369840a8eee8dcfbe129d665f7a11808480a6c83a0ef974e205c4"},
+    {"id":"train-cal-001","candidate":"data/candidates_calibration/train/train-cal-001.json","candidate_sha256":"774f0dda8e4a561d85d1cb5a047d1a4a0a32a4a607188f3c924e1eb71b72dde4"},
+    {"id":"train-cal-002","candidate":"data/candidates_calibration/train/train-cal-002.json","candidate_sha256":"c86332d0e2b57ca40627fe97cc922550feb941668f5abb139587938db263b666"},
+    {"id":"train-cal-003","candidate":"data/candidates_calibration/train/train-cal-003.json","candidate_sha256":"d2b941dc610545fdef2f682d80f9a19ab27d178a142df6abf508effccb4789c0"},
+    {"id":"train-cal-004","candidate":"data/candidates_calibration/train/train-cal-004.json","candidate_sha256":"916cae35af9dff486fa24da0660c7d26a31d93bfc72001609316b921f2e635b7"},
+    {"id":"train-cal-005","candidate":"data/candidates_calibration/train/train-cal-005.json","candidate_sha256":"7b6108fde526198a161c94a2f3afd7438dccc4fd8f3ef86638240811740fcdb2"},
+    {"id":"train-cal-006","candidate":"data/candidates_calibration/train/train-cal-006.json","candidate_sha256":"c9d4443291ed4cf05a394a568378274b72f028189e33bd629d3c4660e2e4d961"}
+  ]
+}

@@ -1,0 +1,1 @@
+{"case_id":"eval3-003","expected_findings":[{"category":"memory_safety","line":4}],"notes":"free accepts only storage allocated by compatible dynamic allocation."}

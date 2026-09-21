@@ -1,0 +1,1 @@
+{"case_id":"eval2-003","expected_findings":[{"category":"memory_safety","line":6}],"notes":"push_back can reallocate and invalidate first."}

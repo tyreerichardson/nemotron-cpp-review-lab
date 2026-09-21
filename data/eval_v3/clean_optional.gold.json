@@ -1,0 +1,1 @@
+{"case_id":"eval3-011","expected_findings":[],"notes":"Clean control: optional is tested before dereference."}

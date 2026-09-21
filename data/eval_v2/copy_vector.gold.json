@@ -1,0 +1,1 @@
+{"case_id":"eval2-008","expected_findings":[{"category":"performance","line":4}],"notes":"The full vector is copied before iteration."}

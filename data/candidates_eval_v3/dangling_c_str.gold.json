@@ -1,0 +1,1 @@
+{"case_id":"eval3-001","expected_findings":[{"category":"memory_safety","line":4}],"notes":"The returned pointer refers to local string storage destroyed at function exit."}

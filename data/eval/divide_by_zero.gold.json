@@ -1,0 +1,5 @@
+{
+  "case_id": "eval-004",
+  "expected_findings": [{"category": "bug", "line": 2}],
+  "notes": "count can be zero unless a caller contract is established and enforced."
+}

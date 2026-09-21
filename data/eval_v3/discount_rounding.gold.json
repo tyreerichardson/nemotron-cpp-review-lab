@@ -1,0 +1,1 @@
+{"case_id":"eval3-007","expected_findings":[{"category":"bug","line":2}],"notes":"The function should return the year modulo 100; adding one shifts every result."}

@@ -1,0 +1,1 @@
+{"case_id":"eval3-004","expected_findings":[{"category":"memory_safety","line":4}],"notes":"Deleting the same allocation twice is undefined behavior."}
