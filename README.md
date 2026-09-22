@@ -2,6 +2,12 @@
 
 A local, structured C++17 review application and adaptation experiment. It sends source to an OpenAI-compatible model endpoint, validates the returned JSON locally, and measures model behavior against locked source-level benchmarks. Submitted C++ is never executed.
 
+## Demo
+
+![Animated example of a C++ source review and its validated finding](docs/demo.gif)
+
+[Download the 10-second video](docs/demo.avi). This is a visual recreation of a saved, schema-validated review from September 21, 2026; it shows an excerpt of the real result rather than a live screen recording.
+
 ## Current result
 
 The V4+V7+V8 adapter composition measured the same strict result on the development and fresh generalization benchmarks:
