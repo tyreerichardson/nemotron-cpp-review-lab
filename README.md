@@ -6,7 +6,7 @@ A local, structured C++17 review application and adaptation experiment. It sends
 
 ![Animated example of a C++ source review and its validated finding](docs/demo.gif)
 
-[Download the 10-second video](docs/demo.avi). This is a visual recreation of a saved, schema-validated review from September 21, 2026; it shows an excerpt of the real result rather than a live screen recording.
+[Download the 10-second video](docs/demo.avi). This is a visual recreation of a saved, schema-validated review from September 21, 2026; it shows an excerpt of the real result rather than a live screen recording. [Recreate the animation](docs/DEMO.md).
 
 ## Current result
 
