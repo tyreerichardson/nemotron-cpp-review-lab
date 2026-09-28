@@ -75,7 +75,7 @@ def main():
     parser.add_argument("source", help="UTF-8 C++ file, or - for stdin")
     parser.add_argument("--prepare-only", action="store_true")
     parser.add_argument("--endpoint", default=DEFAULT_ENDPOINT)
-    parser.add_argument("--model", default=DEFAULT_MODEL, help="model label sent to the OpenAI-compatible endpoint")
+    parser.add_argument("--model", default=DEFAULT_MODEL, help="model label sent to the chat-completions endpoint")
     parser.add_argument("--timeout", type=float, default=90)
     parser.add_argument("--temperature", type=float, default=0, help="sampling temperature; zero uses greedy decoding")
     parser.add_argument("--no-save", action="store_true")

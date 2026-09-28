@@ -13,7 +13,7 @@ python3 validate_eval_candidates.py --suite data/eval_v3
 
 The CLI and evaluation tools use only Python's standard library. These checks do not contact a model server or run submitted C++.
 
-## 2. Start a local OpenAI-compatible inference endpoint
+## 2. Start a local chat-completions inference endpoint
 
 The measured Jetson setup used CUDA llama.cpp with NVIDIA Nemotron 3 Nano 4B GGUF `Q4_K_M`, eight GPU-offloaded layers, a 512-token context, one parallel slot, and reasoning disabled:
 

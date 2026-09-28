@@ -1,6 +1,6 @@
 # Nemotron C++ Review Lab
 
-A local, structured C++17 review application and adaptation experiment. It sends source to an OpenAI-compatible model endpoint, validates the returned JSON locally, and measures model behavior against locked source-level benchmarks. Submitted C++ is never executed.
+A local, structured C++17 review application and adaptation experiment. It sends source to a local chat-completions endpoint, validates the returned JSON locally, and measures model behavior against locked source-level benchmarks. Submitted C++ is never executed.
 
 ## Demo
 

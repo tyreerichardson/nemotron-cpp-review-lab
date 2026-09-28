@@ -32,7 +32,7 @@ The nine promoted records were reviewed only by the project owner. Their manifes
 
 ## Current preflight status
 
-`mlx-lm[train]` is installed in `.venv-mlx312` with Python 3.12, MLX 0.32.2, and MLX-LM 0.31.3; the earlier Python 3.9 environment is incompatible with the model configuration. The MLX chat dataset was generated and validated as six train rows and three validation rows. The pinned 4-bit model is downloaded locally. The Codex shell cannot initialize a Metal device, so the model-load gate must run in a normal interactive Mac Terminal. See `MLX_PROBE.md`. No LoRA run has occurred.
+`mlx-lm[train]` is installed in `.venv-mlx312` with Python 3.12, MLX 0.32.2, and MLX-LM 0.31.3; the earlier Python 3.9 environment is incompatible with the model configuration. The MLX chat dataset was generated and validated as six train rows and three validation rows. The pinned 4-bit model is downloaded locally. The model-load gate requires an interactive Mac Terminal with Metal access. See `MLX_PROBE.md`. No LoRA run has occurred.
 
 ## Smoke configuration
 
@@ -50,7 +50,7 @@ The broad smoke adapted 50 targets with 7.655M trainable parameters (0.193%) at 
 
 ## Smoke adapter evaluation
 
-Evaluate the base and smoke adapter separately through OptiQ's loopback-only OpenAI-compatible server. Run `./serve_optiq_base.sh` in one normal Mac Terminal, then run:
+Evaluate the base and smoke adapter separately through OptiQ's loopback-only chat-completions server. Run `./serve_optiq_base.sh` in one normal Mac Terminal, then run:
 
 ```sh
 python3 evaluate.py \
