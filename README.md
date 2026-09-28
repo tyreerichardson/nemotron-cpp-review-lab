@@ -6,7 +6,7 @@ A local, structured C++17 review application and adaptation experiment. It sends
 
 ![Animated example of a C++ source review and its validated finding](docs/demo.gif)
 
-[Download the 10-second video](docs/demo.avi). This is a visual recreation of a saved, schema-validated review from September 21, 2026; it shows an excerpt of the real result rather than a live screen recording. [Recreate the animation](docs/DEMO.md).
+This animation recreates a saved, schema-validated review from September 21, 2026; it shows an excerpt of the real result rather than a live screen recording. [Recreate the animation and export a video](docs/DEMO.md).
 
 **Use the visual reviewer:** with your model endpoint running, start `python3 visual_app.py` and open [http://127.0.0.1:8765](http://127.0.0.1:8765). The page lets you edit C++ code and see the live, schema-validated result in a layout based on the demo. See [SETUP.md](SETUP.md#use-the-visual-reviewer) for endpoint options.
 
@@ -30,8 +30,8 @@ Each suite has ten labeled findings and two clean controls. The current model st
 
 ## Repository boundaries
 
-Source, schemas, data definitions, experiment scripts, and documentation are tracked. The repository excludes model weights, adapters, virtual environments, generated MLX datasets, raw request/response logs, local configuration, and macOS metadata. See [PUBLIC_FILE_SCOPE.md](PUBLIC_FILE_SCOPE.md) for the exact initial-commit scope.
+Source, schemas, reviewed data, experiment scripts, and documentation are tracked. The repository excludes model weights, adapters, virtual environments, generated datasets, raw request/response logs, local configuration, and generated video. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the setup and evaluation boundaries.
 
 ## Status
 
-Phases 0–3 are complete: application build, baseline evaluation, adaptation, and calibration. Phase 4 measured generalization on a fresh locked suite. The next work is reproducibility and public-project hardening; do not tune further against `eval_v2` or `eval_v3`.
+Phases 0–4 are complete. The repository includes the local visual reviewer, the measured V4+V7+V8 result, and the reproduction guide. Both `eval_v2` and `eval_v3` are frozen; new tuning needs a separately versioned benchmark.

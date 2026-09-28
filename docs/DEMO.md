@@ -13,7 +13,7 @@ python3.12 -m venv .venv-demo
 open docs/demo.gif
 ```
 
-The script uses the checked-in C++ sample and the recorded finding embedded in `render_demo.py`. It checks that the sample's faulty line still matches before rendering. The outputs are `docs/demo.gif` (the README preview) and `docs/demo.avi` (the 10-second Motion JPEG video). On macOS it uses Monaco and Arial; fallback fonts on other systems can change the appearance.
+The script uses the checked-in C++ sample and the recorded finding embedded in `render_demo.py`. It checks that the sample's faulty line still matches before rendering. The outputs are `docs/demo.gif` (the README preview) and `docs/demo.avi` (a 10-second Motion JPEG video for local sharing). The AVI is generated and excluded from Git. On macOS the script uses Monaco and Arial; fallback fonts on other systems can change the appearance.
 
 To inspect the actual tool behavior, start the local model endpoint as described in [SETUP.md](../SETUP.md), then run:
 

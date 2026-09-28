@@ -13,6 +13,7 @@ adapters/
 !.env.example
 *.gguf
 *.safetensors
+docs/demo.avi
 data/mlx_review*/
 data/mlx_dpo*/
 runs/*
