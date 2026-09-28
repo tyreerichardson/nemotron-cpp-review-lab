@@ -41,6 +41,22 @@ cat samples/clean.cpp | python3 cli.py -
 
 The CLI validates JSON shape, filename, and source-line ranges. It saves raw server envelopes under `runs/`; those files are ignored by Git. Use `--no-save` to suppress that artifact.
 
+### Use the visual reviewer
+
+With the model server and tunnel still running, start the local web interface from the repository root:
+
+```sh
+python3 visual_app.py
+```
+
+Open `http://127.0.0.1:8765` in your browser. Edit the sample, click **Review code**, and inspect the validated finding and full JSON. The interface uses the same prompt and validation as `cli.py`; it does not run the C++ source or save raw responses. It binds only to `127.0.0.1`. Stop it with `Ctrl-C`.
+
+If the model server uses another local port, configure it when starting the interface:
+
+```sh
+python3 visual_app.py --endpoint http://127.0.0.1:8090/v1/chat/completions
+```
+
 ## 4. Run an evaluation
 
 Use a fresh output path every time. Do not rerun `eval_v2` or `eval_v3` to guide tuning: both are frozen historical measurements.

@@ -8,6 +8,8 @@ A local, structured C++17 review application and adaptation experiment. It sends
 
 [Download the 10-second video](docs/demo.avi). This is a visual recreation of a saved, schema-validated review from September 21, 2026; it shows an excerpt of the real result rather than a live screen recording. [Recreate the animation](docs/DEMO.md).
 
+**Use the visual reviewer:** with your model endpoint running, start `python3 visual_app.py` and open [http://127.0.0.1:8765](http://127.0.0.1:8765). The page lets you edit C++ code and see the live, schema-validated result in a layout based on the demo. See [SETUP.md](SETUP.md#use-the-visual-reviewer) for endpoint options.
+
 ## Current result
 
 The V4+V7+V8 adapter composition measured the same strict result on the development and fresh generalization benchmarks:

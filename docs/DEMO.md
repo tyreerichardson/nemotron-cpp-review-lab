@@ -2,6 +2,8 @@
 
 The README animation is a visual recreation of the successful September 21, 2026 review of `samples/out_of_bounds.cpp`. It shows the real finding as a short excerpt. It is not a screen recording or a fresh model result.
 
+To **use** a visual version of the reviewer, start the model endpoint, run `python3 visual_app.py` from the repository root, and open `http://127.0.0.1:8765`. You can edit C++ and request a fresh, validated review. The rest of this page explains how to regenerate the fixed README animation.
+
 From the repository root on macOS, regenerate both files:
 
 ```sh

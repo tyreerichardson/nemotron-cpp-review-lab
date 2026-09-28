@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "file": "out_of_bounds.cpp",
+  "summary": "Out-of-bounds array access in loop",
+  "assumptions": [
+    "The vector is non-empty and contains at least one element."
+  ],
+  "findings": [
+    {
+      "category": "memory_safety",
+      "severity": "high",
+      "location": {
+        "start_line": 4,
+        "end_line": 4
+      },
+      "title": "Loop condition causes out-of-bounds access",
+      "explanation": "The loop iterates from i = 0 to i <= values.size(), which accesses values[values.size()]. This index is out of bounds because valid indices are 0 to values.size() - 1.",
+      "suggested_fix": "Change loop condition to i < values.size() to prevent out-of-bounds access."
+    }
+  ]
+}
